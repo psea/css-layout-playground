@@ -2,10 +2,13 @@
   display: block;
   border: solid gray 1px;
   background-color: rgb(206, 206, 206);
+  padding: 5px;
+  margin: 5px;
 }
 
 .box-inline {
   display: inline;
   border: solid blue 1px;
   background-color: rgb(180, 180, 255);
+  margin: 5px;
 }

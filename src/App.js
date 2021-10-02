@@ -28,7 +28,7 @@ class App extends React.Component {
   render() {
     const divs = []
     this.state.divs.forEach((type, i) => {
-      divs.push(<div className={"box-"+type} key={i} onClick={(event) => this.clickHandler(i, event)}>Box {i}</div>)
+      divs.push(<div className={"box-"+type} key={i} onClick={(event) => this.clickHandler(i, event)}><code>display: {type} {i}</code></div>)
     });
 
     return (
